@@ -5,4 +5,4 @@ An Objective-C UIView that will search iTunes for an app and return the basic re
 
 ![Demo Image](https://raw.githubusercontent.com/front9tech/F9ITunesSearch/master/F9ITunesSearch/F9ITunesSearch%20Screenshot.png)
 
-==Usage==
+### Usage
