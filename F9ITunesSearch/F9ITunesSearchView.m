@@ -12,9 +12,6 @@
 
 static NSString* kResultsUserInfoKey = @"results";
 
-//POST TO GITHUB AND COCOACONTROLS TO SEE THE PUBLICITY AND TRAFFIC IT GETS - INCLUDE 716LABS IN GITHUB PROFILE
-//ADD GIFS SHOWING THIS IN PROGRESS AND HOW IT WORKS
-
 - (F9ITunesSearchView*) initWithSearchString:(NSString*)searchStr frame:(CGRect)frame textFont:(UIFont*)textFont {    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appDataLoaded:) name:@"appDataLoaded" object:nil];
     F9ITunesSearchView* retval = [super initWithFrame:frame];
     retval.searchString = searchStr;
