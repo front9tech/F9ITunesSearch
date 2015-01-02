@@ -32,5 +32,33 @@ F9ITunesSearchView *f9ITunesSearchView = [[F9ITunesSearchView alloc] initWithSea
 
 //Add the subview to your view
 [self.view addSubview:f9ITunesSearchView];
+```
 
+### Usage Options
+
+__App Type__
+When searching for an app you need to tell iTunes if it is and iPhone app or iPad app search.  In the control you can specify the search type using the following code:
+
+```
+//Search for an iPhone app
+[f9ITunesSearchView loadAppDetails:iPhoneAppType affiliateId:@"10l7af"];
+```
+
+```
+//Search for an iPad app
+[f9ITunesSearchView loadAppDetails:iPadAppType affiliateId:@"10l7af"];
+```
+
+__Apple Affiliate ID__
+If you have an Apple affiliate ID (apply here - https://www.apple.com/itunes/affiliates) you can pass this parameter to append it to the return link using the code below 
+
+```
+//Search for an iPhone app
+[f9ITunesSearchView loadAppDetails:iPhoneAppType affiliateId:@"10l7af"];
+```
+
+If you do not want to use an affiliate ID use this code:
+```
+//Search for an iPhone app
+[f9ITunesSearchView loadAppDetails:iPhoneAppType];
 ```
