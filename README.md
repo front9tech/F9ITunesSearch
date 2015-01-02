@@ -3,6 +3,8 @@ F9ITunesSearch
 
 An Objective-C UIView that will search iTunes for an app and return the basic results. If you have an Apple Affiliate ID you can include this in the search result App Store Link.
 
+Learn about when the app was released, the number of reviews it has all time, the average reviews all time, the number of reviews for the current version and more.
+
 ![Demo Image](https://raw.githubusercontent.com/front9tech/F9ITunesSearch/master/F9ITunesSearch/F9ITunesSearch%20Screenshot.png)
 
 ### Usage
