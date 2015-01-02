@@ -15,6 +15,7 @@
 		D221F3521A2B4EFF009B133D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D221F3501A2B4EFF009B133D /* LaunchScreen.xib */; };
 		D221F35E1A2B4EFF009B133D /* F9ITunesSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D221F35D1A2B4EFF009B133D /* F9ITunesSearchTests.m */; };
 		D221F36D1A2BFF88009B133D /* F9ITunesSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = D221F36C1A2BFF88009B133D /* F9ITunesSearchView.m */; };
+		D256C6C71A56355000B38505 /* F9ITunesSearch Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = D256C6C61A56355000B38505 /* F9ITunesSearch Screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		D221F35D1A2B4EFF009B133D /* F9ITunesSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F9ITunesSearchTests.m; sourceTree = "<group>"; };
 		D221F36B1A2BFF88009B133D /* F9ITunesSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F9ITunesSearchView.h; sourceTree = "<group>"; };
 		D221F36C1A2BFF88009B133D /* F9ITunesSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F9ITunesSearchView.m; sourceTree = "<group>"; };
+		D256C6C61A56355000B38505 /* F9ITunesSearch Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F9ITunesSearch Screenshot.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		D221F3401A2B4EFF009B133D /* F9ITunesSearch */ = {
 			isa = PBXGroup;
 			children = (
+				D256C6C51A56353600B38505 /* Screenshots */,
 				D221F3671A2B8751009B133D /* F9ITunesSearch */,
 				D221F3451A2B4EFF009B133D /* AppDelegate.h */,
 				D221F3461A2B4EFF009B133D /* AppDelegate.m */,
@@ -130,6 +133,14 @@
 				D221F36C1A2BFF88009B133D /* F9ITunesSearchView.m */,
 			);
 			name = F9ITunesSearch;
+			sourceTree = "<group>";
+		};
+		D256C6C51A56353600B38505 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				D256C6C61A56355000B38505 /* F9ITunesSearch Screenshot.png */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +226,7 @@
 				D221F34D1A2B4EFF009B133D /* Main.storyboard in Resources */,
 				D221F3521A2B4EFF009B133D /* LaunchScreen.xib in Resources */,
 				D221F34F1A2B4EFF009B133D /* Images.xcassets in Resources */,
+				D256C6C71A56355000B38505 /* F9ITunesSearch Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

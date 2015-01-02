@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FF5B946C-EEC3-4888-89E6-BCB73D87E199</string>
+	<key>IDESourceControlProjectName</key>
+	<string>F9ITunesSearch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DC62A9F9F6B02D61268F981FF325AEAE373221C1</key>
+		<string>https://github.com/front9tech/F9ITunesSearch.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>F9ITunesSearch.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DC62A9F9F6B02D61268F981FF325AEAE373221C1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/front9tech/F9ITunesSearch.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DC62A9F9F6B02D61268F981FF325AEAE373221C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC62A9F9F6B02D61268F981FF325AEAE373221C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>F9ITunesSearch</string>
+		</dict>
+	</array>
+</dict>
+</plist>
