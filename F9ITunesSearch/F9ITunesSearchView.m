@@ -16,7 +16,7 @@ static NSString* kResultsUserInfoKey = @"results";
     F9ITunesSearchView* retval = [super initWithFrame:frame];
     retval.searchString = searchStr;
     
-    self.appDataTextview = [[UITextView alloc] initWithFrame:CGRectMake(0, 110, retval.frame.size.width, retval.frame.size.height - 110)];
+    self.appDataTextview = [[UITextView alloc] initWithFrame:CGRectMake(0, 100, retval.frame.size.width, retval.frame.size.height - 100)];
     self.appDataTextview.dataDetectorTypes = UIDataDetectorTypeAll;
     self.appDataTextview.editable = NO;
     self.appDataTextview.font = textFont;
